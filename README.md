@@ -32,11 +32,11 @@ Key features include:
 
 **Thermostat UI on Touch Screen:**
 
-![Thermostat - Touch Screen](resources/thermostat_touch.png)
+![Thermostat - Touch Screen](resources/thermostat.png)
 
 **Thermostat min UI - Settings:**
 
-![Thermostat - Touch Screen](resources/thermostat_minui.png)
+![Thermostat - Touch Screen](resources/thermostat_minUI.png)
 
 **Thermostat Web UI - Settings:**
 
@@ -45,27 +45,11 @@ Key features include:
 
 **Thermostat Web UI - Edit Schedule:**
 
-![Thermostat Edit Schedule - Web UI](resources/thermostat_schedule.png)
+![Thermostat Edit Schedule - Web UI](resources/thermostat_schedule.jpg)
 
 **Note**: *Double click/tap on a blank space in the schedule to create a new entry*
 
-**Thermostat Graph:**
 
-![Thermostat Edit Schedule - Web UI](resources/thermostat_graph.png)
-
-**Thermostat Hardware - Internals:**
-
-![Thermostat Hardware - Internals](resources/thermostat_interior.jpg)
-
-The author's final internals, before the case top was installed.
-
-**Thermostat Installation:**
-
-![Thermostat Installation](resources/thermostat_installed.jpg)
-
-![Thermostat Installed Min UI](resources/thermostat_min_installed.jpg)
-
- You can see the temperature sensor to the right ....it has be be outside the case, since the Pi computer generates enough heat that it would affect the measurement if the temp sensor was inside.
 
 
 ##Hardware (as used/tested by author):
