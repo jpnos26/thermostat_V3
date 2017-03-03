@@ -1071,9 +1071,9 @@ class ThermostatApp( App ):
 
    	# set sizing and position info
 		
-		wimg.size = ( 80, 80 )
+		wimg.size = ( 64, 64 )
 		wimg.size_hint = ( None, None )
-		wimg.pos = ( 5, 390 )
+		wimg.pos = ( 5, 400 )
 
 		heatControl.size  = ( 130, 130 )
 		heatControl.pos = ( 650, 290 )
@@ -1092,24 +1092,24 @@ class ThermostatApp( App ):
 		currentLabel.pos = ( 380, 335 )
 
 		dateLabel.pos = ( 165, 400 )
-		timeLabel.pos = ( 170,370 )
+		timeLabel.pos = ( 150,370 )
 		
 		
-		weatherImg.pos = ( 280, 90 )
-		weatherSummaryLabel.pos = ( 420, 85 )
-		weatherDetailsLabel.pos = ( 440,0 )
+		weatherImg.pos = ( 300, 70 )
+		weatherSummaryLabel.pos = ( 450, 85 )
+		weatherDetailsLabel.pos = ( 495,27 )
 		
 		versionLabel.pos = ( 710, 0 )
 		
-		forecastTodayHeading = Label( text="[b][i]--- Oggi ---[/i][/b]", font_size='20sp', markup=True, size_hint = ( None, None ), pos = ( 50, 310 ) )
+		forecastTodayHeading = Label( text="[b][i]Oggi [/i][/b]", font_size='20sp', markup=True, size_hint = ( None, None ), pos = ( 85, 295 ) )
 		
-		forecastTodayImg.pos = ( 0, 280 )
+		forecastTodayImg.pos = ( 0, 290 )
 		forecastTodaySummaryLabel.pos = ( 80, 280 )
 		forecastTodayDetailsLabel.pos = ( 80, 187 )
 
-		forecastTomoHeading = Label( text="[b][i]--- Domani ---[/b][/i]", font_size='20sp', markup=True, size_hint = ( None, None ), pos = ( 55, 140 ) )
+		forecastTomoHeading = Label( text="[b][i]Domani [/b][/i]", font_size='20sp', markup=True, size_hint = ( None, None ), pos = ( 90, 125 ) )
 
-		forecastTomoImg.pos = ( 0, 110 )
+		forecastTomoImg.pos = ( 0, 120 )
 		forecastTomoSummaryLabel.pos = ( 80, 110 )
 		forecastTomoDetailsLabel.pos = ( 80, 17 )
 
@@ -1124,17 +1124,17 @@ class ThermostatApp( App ):
 		thermostatUI.add_widget( dateLabel )
 		thermostatUI.add_widget( timeLabel )
 		thermostatUI.add_widget( weatherImg )
-		thermostatUI.add_widget( weatherSummaryLabel )
+		#thermostatUI.add_widget( weatherSummaryLabel )
 		thermostatUI.add_widget( weatherDetailsLabel )
 		thermostatUI.add_widget( versionLabel )
 		thermostatUI.add_widget( forecastTodayHeading )
 		thermostatUI.add_widget( forecastTodayImg )
-		thermostatUI.add_widget( forecastTodaySummaryLabel )
+		#thermostatUI.add_widget( forecastTodaySummaryLabel )
 		thermostatUI.add_widget( forecastTodayDetailsLabel )
 		thermostatUI.add_widget( forecastTomoHeading )
 		thermostatUI.add_widget( forecastTomoImg )
 		thermostatUI.add_widget( forecastTomoDetailsLabel )
-		thermostatUI.add_widget( forecastTomoSummaryLabel )
+		#thermostatUI.add_widget( forecastTomoSummaryLabel )
 		layout = thermostatUI
 
 		# Minimap UI initialization
